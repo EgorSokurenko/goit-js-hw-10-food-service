@@ -13,7 +13,7 @@ const Theme = {
     LIGHT: 'light-theme',
     DARK: 'dark-theme',
   };
-checkThem.addEventListener('input',changeTheme)
+checkThem.addEventListener('change',changeTheme)
 
 let theme = localStorage.getItem('theme');
 
